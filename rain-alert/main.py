@@ -5,12 +5,12 @@ from twilio.http.http_client import TwilioHttpClient
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/weather"
 #api_key = os.environ.get("OWM_API_KEY")  # generate from api.openweathermap.org
-api_key = "36e3afebce4525885b47c4a7db5dcf38" # generate from api.openweathermap.org
+#api_key =   # generate from api.openweathermap.org
 
-account_sid = "AC002f1754525652506c68a6f487092b50"  # Twilio Account SID
+#account_sid =   # Twilio Account SID
 #auth_token = os.environ.get("AUTH_TOKEN")  # Twilio Account Token
 
-auth_token = "610fcc35d595823019b6e272d3689b5f"  # Twilio Account Token
+#auth_token =  # Twilio Account Token
 
 weather_params = {
     "lat": 1.3521,  # singapore's latitude and longitude
@@ -70,8 +70,8 @@ if will_rain:
 proxy_client = TwilioHttpClient()
 # proxy_client.session.proxies = {'https': os.environ['https_proxy']}
 
-account_sid = 'AC002f1754525652506c68a6f487092b50'
-auth_token = '610fcc35d595823019b6e272d3689b5f'
+#account_sid = 
+#auth_token = 
 
 NUMBERS = {
     "Rajeev": "+6591066441"
