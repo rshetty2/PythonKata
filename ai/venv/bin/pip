@@ -1,4 +1,4 @@
-#!/Users/rajeevshetty/IdeaProjects/PythonKata/ai/pandas/venv/bin/python
+#!/Users/rajeevshetty/IdeaProjects/PythonKata/ai/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
